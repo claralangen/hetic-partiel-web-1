@@ -1283,6 +1283,13 @@ table a,
 		max-width: none;
 		text-align: left;
 	}
+    #pageintro footer{
+        display: flex;
+    }
+    #pageintro .btn{
+        width: 90%;
+        font-size: 80%;
+    }
 	#pageintro .heading {
 		font-size: 2rem;
 	}
@@ -1315,7 +1322,6 @@ table a,
 		white-space: nowrap;
 	}
 	.inline li {
-		display: block;
 		margin-bottom: 10px;
 	}
 	.pushright li {
